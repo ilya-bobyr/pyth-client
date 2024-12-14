@@ -1,6 +1,6 @@
 [package]
 name = "pyth-oracle"
-version = "2.33.0"
+version = "2.33.1"
 edition = "2021"
 license = "Apache 2.0"
 publish = false
@@ -9,7 +9,7 @@ publish = false
 bindgen = "0.60.1"
 
 [dependencies]
-solana-program = "=1.14.17"
+solana-program = "1.14.17"
 bytemuck = "1.11.0"
 thiserror = "1.0"
 num-derive = "0.3"
@@ -18,12 +18,12 @@ byteorder = "1.4.3"
 serde = { version = "1.0", features = ["derive"], optional = true }
 strum = { version = "0.24.1", features = ["derive"], optional = true }
 pythnet-sdk = "2.2.0"
-solana-sdk = { version = "=1.14.17", optional = true }
+solana-sdk = { version = "1.14.17", optional = true }
 bitflags = { version = "2.6.0", features = ["bytemuck"] }
 
 [dev-dependencies]
-solana-program-test = "=1.14.17"
-solana-sdk = "=1.14.17"
+solana-program-test = "1.14.17"
+solana-sdk = "1.14.17"
 tokio = "1.14.1"
 hex = "0.3.1"
 quickcheck = "1"
